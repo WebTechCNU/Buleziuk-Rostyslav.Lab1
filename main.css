@@ -19,8 +19,14 @@ button{
     height: 40px;
     background-color: aqua;
     font-size: 25px;
+    user-select: none;
 }
-div {
+
+button:hover{
+    cursor: pointer;
+}
+
+.dotted-block {
     border: dotted white 3px;
     width: 350px;
     height: 400px;

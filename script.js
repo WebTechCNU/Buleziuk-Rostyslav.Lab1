@@ -1,9 +1,11 @@
-let input = document.querySelector('input');
-let reversed='';
 function tstjs() {
-    for (let ch of input) {
-        reversed=ch+reversed;
-    }
-    document.getElementById("output").append();
+    let input = document.querySelector('#input').value;
+    let reversed='';
+
+    Array.from(input).forEach(element => {
+        reversed = element + reversed;
+    });
+
+    document.querySelector("#res").innerHTML = reversed;
 }
 
