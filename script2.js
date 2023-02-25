@@ -1,14 +1,14 @@
 function numbers() {
-    let input = document.querySelector('#input').value;
-    let numwithlett = '';
-    for (let i = input.length-1;i=0;) {
-        numwithlett+=console.log('input'+'гривня');
-        if (i=2,3,4) {
-            numwithlett+=console.log('input'+'гривні');
-        }
-        if (i=5,6,7,8,9,0) {
-            numwithlett+=console.log('input'+'гривень')
-        }
+    let input = Number(document.querySelector('#input').value);
+    let numwithlett;
+    if(isNaN(input)){
+        numwithlett = "This is not a number";
+    } else if ((input % 100 > 10 && input % 100 < 20) || [0,5,6,7,8,9].includes(input % 10) ){
+        numwithlett = "гривень";
+    } else if (input % 10 == 1 ){
+        numwithlett = "гривня";
+    } else {
+        numwithlett = "гривні";
     }
     document.querySelector("#res").innerHTML = numwithlett;
 }
