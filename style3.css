@@ -1,1 +1,37 @@
+body{
+    background-image: url(https://wallpaperset.com/w/full/f/b/b/484250.jpg);
+    text-align: center;
+}
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+button{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+div{
+    border: 2px solid white;
+    width: 380px;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+}
+input{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.new{
+    margin-top: 5000px;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
 
+}
