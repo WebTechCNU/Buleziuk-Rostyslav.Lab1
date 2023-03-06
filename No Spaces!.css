@@ -35,3 +35,11 @@ input{
     text-align: center;
 
 }
+.link{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 140px;
+    height: 65px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+}
