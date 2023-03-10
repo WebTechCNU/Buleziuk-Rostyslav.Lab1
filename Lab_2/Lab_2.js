@@ -24,8 +24,8 @@ let fruits = [
 function getFruits(){
     let divInfo = document.querySelector("#products");
     let inner = "";
-    for(let i = 0; i < products.length ; i++){
-        let img = "<img title='Friuts' src='" + products[i].url + "'>";
+    for(let i = 0; i < fruits.length ; i++){
+        let img = "<img title='Friuts' src='" + fruits[i].url + "'>";
         inner = inner + img;
     }
     divInfo.innerHTML = inner;
